@@ -1,16 +1,90 @@
-# React + Vite
+# Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive Tic Tac Toe game built with React featuring a two-player turn system, winner detection, draw detection, animated winning cells, reset functionality, and a responsive UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎮 3×3 Tic Tac Toe Board
+- 👥 Two Player Turn System
+- 🏆 Winner Detection
+- 🤝 Draw Detection
+- ✨ Winning Cell Animation
+- 🔄 Reset Game Option
+- 📱 Responsive Design
+- ⚡ Fast and Smooth Gameplay
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS3
 
-## Expanding the ESLint configuration
+## Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+src/
+├── components/
+│   ├── Board.jsx
+│   └── Square.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-link>
+```
+
+Move to project folder:
+
+```bash
+cd Tic-Tac-Toe
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```bash
+http://localhost:5173
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Live Demo
+
+Add deployed link here:
+
+```text
+https://your-live-link.vercel.app
+```
+
+## GitHub Repository
+
+https://github.com/pratham11kumar/Tic-Tac-Toe
+
+## Preview
+
+Players take turns placing X and O on the board. The game automatically detects winners, highlights winning cells with animation, handles draws, and allows instant reset.
+
+## Author
+
+Made by Pratham 🚀
