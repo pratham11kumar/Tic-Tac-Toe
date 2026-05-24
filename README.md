@@ -71,8 +71,6 @@ npm run build
 
 ## Live Demo
 
-Add deployed link here:
-
 https://tic-tac-toe-three-cyan.vercel.app/
 
 ## GitHub Repository
