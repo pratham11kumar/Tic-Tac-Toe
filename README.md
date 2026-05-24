@@ -73,9 +73,7 @@ npm run build
 
 Add deployed link here:
 
-```text
-https://your-live-link.vercel.app
-```
+https://tic-tac-toe-three-cyan.vercel.app/
 
 ## GitHub Repository
 
