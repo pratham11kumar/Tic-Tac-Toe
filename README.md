@@ -35,9 +35,9 @@ src/
 
 Clone the repository:
 
-```bash
-git clone <repository-link>
-```
+
+git clone <(https://github.com/pratham11kumar/Tic-Tac-Toe)>
+
 
 Move to project folder:
 
